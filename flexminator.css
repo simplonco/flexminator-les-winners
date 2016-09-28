@@ -2,7 +2,6 @@
 
 .container{
 
-        background: lightgray;
         margin: 0 auto;
         width: 100%;
 
@@ -43,4 +42,45 @@ header{
       height: 300px;
       
    
+}
+
+#footer {
+  background-color: rgba(140, 0, 26, 0.1);
+  height: 200px;
+  width: 100%;
+}
+
+.reserved {
+  text-align: center;
+  padding: 90px;
+}
+
+.name {
+  color: #8C001A;
+  font-weight : bold;
+  font-size: 18px;
+}
+
+.name:hover {
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  #footer {
+    height: 100px;
+    width: auto;
+  }
+  .reserved {
+  text-align: center;
+  padding: 35px;
+  font-size: 10px;
+    }
+    .name {
+  color: #8C001A;
+  font-weight : bold;
+  font-size: 13px;
+    }
+    .name:hover {
+  color: blue;
+    }
 }
