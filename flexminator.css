@@ -1,8 +1,21 @@
+
+
+.container{
+
+        background: lightgray;
+        margin: 0 auto;
+        width: 100%;
+
+    }
+
+
+
+
 header{
   width: 100%;
   height: 400px;
   display: flex;
-  background-image: url('/home/nassou/Bureau/download2.jpeg');
+  background-image: url(../flexminator-les-winners/background.jpeg);
   flex-flow: column-reverse wrap;
   background-size: cover;
  
@@ -12,4 +25,22 @@ header{
 	border-top: 1px;
 	border-color: write;
 	background: rgba(255, 255, 255, 0.8);
+}
+
+.gride{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+ 
+     
+
+}
+
+
+.gride img{
+      width:300px;
+      height: 300px;
+      
+   
 }
