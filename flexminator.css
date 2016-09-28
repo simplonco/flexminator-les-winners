@@ -1,0 +1,15 @@
+header{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  background-image: url('/home/nassou/Bureau/download2.jpeg');
+  flex-flow: column-reverse wrap;
+  background-size: cover;
+ 
+}
+.y{
+	height: 20%;
+	border-top: 1px;
+	border-color: write;
+	background: rgba(255, 255, 255, 0.8);
+}
